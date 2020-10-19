@@ -1,0 +1,240 @@
+v19.2:
+	+ Fixed player interaction with water
+
+v19.1:
+	+ Fixed random water movement when on flat area 
+	+ Fixed bottom border
+	
+v19.0:
+	+ Added water movement
+
+v18.3:
+	+ Fixed display error
+
+v18.2:
+	+ Fixed moving tile placement, causing display error
+
+v18.1:
+	+ Fixed gravity-affected tile switching script
+
+v18.0:
+	+ Added gravity-affected movement script
+	+ Fixed top and bottom void borders
+
+v17.1:
+	+ Fixed player downward movement tile displacement
+	+ Compressed 'data.js' code
+
+v17.0:
+	+ Added player swimming ability
+	+ Added ocean biome (unfinished)
+	+ Seperated tiles from items (different folders)
+
+v16.1:
+	+ Saturated gravel tile image
+	+ Added ore item
+
+v16.0:
+	+ Added "ore" tile
+	+ Added ore tile generation
+	+ Added "rarity" tile property
+
+v15.4:
+	+ Renamed "tree_variation" tile ID to "log"
+	- Player cannot move diagonally through tiles
+
+v15.3:
+	- Player cannot pick up player tile
+
+v15.2:
+	- Player cannot pick up void tile
+	- Player cannot stack tiles
+
+v15.1:
+	+ Fixed air tile display in inventory
+
+v15.0:
+	+ Added player inventory
+	+ Added player tile pick-up
+	+ Limited player tile placement
+
+v14.2:
+	+ Compressed 'main.js' code
+	- Removed comments
+
+v14.1:
+	+ Added tile breaking
+	- Removed up arrow key control
+
+v14.0:
+	+ Added tile placing
+
+v13.1:
+	+ Fixed tree generation
+	+ Terrain smoothing is now optional
+
+v13.0:
+	+ Added auto-jump
+	- Removed arrow key controls
+
+v12.1:
+	+ Fixed layer variation
+
+v12.0:
+	+ Variated layer generation
+
+v11.11:
+	+ Fixed FPS issues
+	+ Temporarily expanded view
+
+v11.10:
+	+ Added expandable view
+	- Removed 'move.js' file
+
+v11.9:
+	+ Added position display
+	+ Added WASD controls
+
+v11.8:
+	+ Fixed typo affecting visibility
+	+ Player starts on block instead of in air
+	+ Fixed world border
+	- Removed air jump
+
+v11.7:
+	+ Added random player start position
+	+ Expanded vision
+
+v11.6:
+	+ Added player movement
+	+ Added player control
+	+ Added world border
+	+ Added temporary player tile
+
+v11.5:
+	+ Added limited visibility
+	+ Expanded default world
+	- Removed random tile rotation
+
+v11.4:
+	+ Added grassy dirt generation
+	+ Added 'move.js' file for tile movement
+
+v11.3:
+	+ Edited stone saturation (removed brown)
+	+ Added gravel tile (same as sand)
+	+ Added gravel generation to plains and desert biome
+	+ Re-added grassy dirt tile
+	+ Re-drew water tile
+	- Removed grass overlay
+	- Removed alternate air tiles
+
+v11.2:
+	+ Re-drew tall grass
+	- Removed grassy dirt tile
+	+ Added grass overlay for dirt (unfinished)
+
+v11.1:
+	+ Finished terrain generation
+	+ Re-drew dirt tile
+	+ Re-drew stone tile
+	+ Edited tile properties
+	+ Added visual tile rotation (for variation)
+
+v11.0:
+	+ Re-scripted grid generation
+	+ Created new terrain generation technique (unfinished)
+	+ Added new void image
+	+ Added 'data.js' file
+	+ Re-scripted 'index.html' file
+	+ Added 4 air variations
+	+ Added many assets for future work
+	+ Renamed 'script-0.js' to 'main.js'
+	+ Added biomes and biome generation
+	- Removed tile background color in 'style.css'
+	- Temporarily removed 'script-1.js' file
+	- Temporarily removed credits section
+	- Temporarily removed cactus tile
+	- Removed log tile
+	- Removed leafy log tile
+	- Removed leaves tile
+
+v10.2:
+	+ Re-added temporary void physics (same as water)
+
+v10.1:
+	- Removed void physics
+	+ Added void selection button
+
+v10.0:
+	+ Added void tile
+	+ Added void physics
+
+v9.2:
+	- Removed cactus placement on water
+	- Removed 'script-2.js' file
+
+v9.1:
+	- Removed underground cacti
+
+v9.0:
+	+ Added water pool generation
+
+v8.2:
+	+ Added Discord invite link at credits
+	+ Repositioned credits
+
+v8.1:
+	+ Fixed tree generation (same issue as early water)
+
+v8.0:
+	+ Added tree generation
+
+v7.0:
+	+ Added cactus tile
+	+ Added log tile
+	+ Added leaves tile
+	+ Added leafy log tile
+	+ Added cacti generation
+	+ Added credits
+	+ Added cacti selection button
+	+ Added log selection button
+	+ Added leaves selection button
+	+ Added leafy log selection button
+	+ Changed overgrown dirt selection button text to grassy dirt
+
+v6.6:
+	+ Added a change log text file.
+
+v6.5:
+	- Removed a water movement technique due to bugs caused by moving to left or right.
+
+v6.4:
+	- Removed air tile button, it is useless.
+
+v6.3:
+	+ Re-scripted water, it does not spread and works correctly.
+	+ Added deserts (chance of appearing 1 in 5 times)
+	+ Added sand gravity.
+
+v5.0:
+	+ Added buttons to select a tile to place.
+	+ Fixed a few miscellaneous things.
+
+v4.2:
+	+ Added water tiles (bugged)
+
+v3.4:
+	+ Re-scripted everything from 2.0 to make more efficient and take less code.
+
+v2.0:
+	+ Added dirt tile
+	+ Added grassy dirt tile
+	+ Added world generation
+
+v1.1:
+	+ Added air tile
+
+v1.0:
+	+ Created basic script
+	+ Created stone tile

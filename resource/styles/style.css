@@ -1,0 +1,20 @@
+html {
+	user-select : none;
+	cursor : url ( "../images/other/cursor.png" ),auto;
+}
+.row {
+	display : flex;
+}
+.tile {
+	width : 30px;
+	height : 30px;
+	border : 0px solid #000000;
+}
+.tile :hover {
+	border : 0px solid #ffffff;
+}
+.tile .overlay {
+	position : relative;
+}
+#inventory{
+}
